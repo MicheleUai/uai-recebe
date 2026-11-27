@@ -1,0 +1,17 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+dist/
+*.tsbuildinfo
+
+coverage/
+test-results/
+playwright-report/
+playwright/.cache/
+playwright/.auth/
+
+*.log
